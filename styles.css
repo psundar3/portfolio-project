@@ -2,3 +2,35 @@ body {
     background: #ff9966;
     color: #000000;
 }
+
+a {
+    color: #454647;
+}
+
+
+#port-nav {
+    padding: 15px 500px;
+}
+
+#port-nav ul {
+    list-style: none;
+}
+
+#port-nav li {
+    display: inline-block;
+}
+
+#port-nav>ul>li>a {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    background: gold;
+    transition: all 0.2s linear;
+}
+
+#port-nav>ul>li>a:hover {
+    color: #cfd2d6;
+    background: brown;
+    border-radius: 0px;
+    transition: all 1s linear;
+}
